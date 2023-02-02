@@ -1,27 +1,27 @@
-<testsuites id="" name="" tests="15" failures="0" skipped="3" errors="0" time="67.21601400000003">
-<testsuite name="e2e_test.spec.ts" timestamp="1675332910821" hostname="" tests="15" failures="0" skipped="3" time="63.624" errors="0">
-<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="3.012">
+<testsuites id="" name="" tests="16" failures="1" skipped="3" errors="0" time="167.35723800000002">
+<testsuite name="e2e_test.spec.ts" timestamp="1675336981555" hostname="" tests="16" failures="1" skipped="3" time="156.109" errors="0">
+<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="3.507">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----001-Login-Here-Admin-is-logging-into-Admin-Dashboard-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="2.018">
+<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="2.365">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----002-Login-Here-Admin-is-skipping-WPUF-setup-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="1.952">
+<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="2.329">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----003-Login-Here-Admin-is-checking-Dashboard-page-reached-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" time="3.053">
+<testcase name="TEST :--&gt; 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" time="3.708">
 <system-out>
 <![CDATA[WPUF-Lite Status: Activated
 WPUF-Pro Status: Activated
@@ -30,69 +30,202 @@ WPUF-Pro Status: Activated
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="1.394">
+<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="1.89">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="3.151">
+<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="4.382">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="7.063">
+<testcase name="TEST :--&gt; 007 Here, Admin is able to Log out succesfully" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007 Here, Admin is able to Log out succesfully" time="74.999">
+<failure message="e2e_test.spec.ts:92:5 007 Here, Admin is able to Log out succesfully" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:92:5 › TEST :--> › 007 Here, Admin is able to Log out succesfully ==
+
+    Test timeout of 25000ms exceeded.
+
+    page.hover: Target closed
+    =========================== logs ===========================
+    waiting for locator('xpath=//a[@class="ab-item" and contains(text(), "Howdy, ")]')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogout.ts:14
+
+      12 |         await this.page.goto('http://localhost:8889/wp-admin/', { waitUntil: 'networkidle' });
+      13 |         
+    > 14 |         await this.page.hover(Selectors_LogoutPage.basicLogout.logoutHoverUsername);
+         |                         ^
+      15 |         await this.page.click(Selectors_LogoutPage.basicLogout.logoutButton);
+      16 |
+      17 |        //Validate LOGOUT
+
+        at BasicLogoutPage.logOut (/home/runner/work/wp-user-frontend/wp-user-frontend/tests/e2e/pages/01_Basic/basicLogout.ts:14:25)
+        at /home/runner/work/wp-user-frontend/wp-user-frontend/tests/e2e/tests/e2e_test.spec.ts:95:9
+
+    Pending operations:
+      - page.hover at pages/01_Basic/basicLogout.ts:14:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.hover: Target closed
+    =========================== logs ===========================
+    waiting for locator('xpath=//a[@class="ab-item" and contains(text(), "Howdy, ")]')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogout.ts:14
+
+      12 |         await this.page.goto('http://localhost:8889/wp-admin/', { waitUntil: 'networkidle' });
+      13 |         
+    > 14 |         await this.page.hover(Selectors_LogoutPage.basicLogout.logoutHoverUsername);
+         |                         ^
+      15 |         await this.page.click(Selectors_LogoutPage.basicLogout.logoutButton);
+      16 |
+      17 |        //Validate LOGOUT
+
+        at BasicLogoutPage.logOut (/home/runner/work/wp-user-frontend/wp-user-frontend/tests/e2e/pages/01_Basic/basicLogout.ts:14:25)
+        at /home/runner/work/wp-user-frontend/wp-user-frontend/tests/e2e/tests/e2e_test.spec.ts:95:9
+
+    Pending operations:
+      - page.hover at pages/01_Basic/basicLogout.ts:14:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.hover: Target closed
+    =========================== logs ===========================
+    waiting for locator('xpath=//a[@class="ab-item" and contains(text(), "Howdy, ")]')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogout.ts:14
+
+      12 |         await this.page.goto('http://localhost:8889/wp-admin/', { waitUntil: 'networkidle' });
+      13 |         
+    > 14 |         await this.page.hover(Selectors_LogoutPage.basicLogout.logoutHoverUsername);
+         |                         ^
+      15 |         await this.page.click(Selectors_LogoutPage.basicLogout.logoutButton);
+      16 |
+      17 |        //Validate LOGOUT
+
+        at BasicLogoutPage.logOut (/home/runner/work/wp-user-frontend/wp-user-frontend/tests/e2e/pages/01_Basic/basicLogout.ts:14:25)
+        at /home/runner/work/wp-user-frontend/wp-user-frontend/tests/e2e/tests/e2e_test.spec.ts:95:9
+
+    Pending operations:
+      - page.hover at pages/01_Basic/basicLogout.ts:14:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
 <system-out>
-<![CDATA[veritatis
-veritatis
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Here-Admin-is-able-to-Log-out-succesfully-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="7.765">
+<system-out>
+<![CDATA[itaque
+itaque
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" time="7.011">
+<testcase name="TEST :--&gt; 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" time="7.502">
 <system-out>
-<![CDATA[ipsa
-ipsa
+<![CDATA[dignissimos
+dignissimos
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="9.306">
+<testcase name="TEST :--&gt; 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="13.301">
 <system-out>
-<![CDATA[corporis
-corporis
+<![CDATA[eius
+eius
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" time="8.567">
+<testcase name="TEST :--&gt; 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" time="12.344">
 <system-out>
-<![CDATA[ex
-ex
+<![CDATA[deleniti
+deleniti
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="12.079">
+<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="15.55">
 <system-out>
-<![CDATA[veritatis
-veritatis
+<![CDATA[itaque
+itaque
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" time="5.018">
+<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" time="6.462">
 <system-out>
-<![CDATA[veritatis
-veritatis
+<![CDATA[itaque
+itaque
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium/trace.zip]]
 ]]>
@@ -106,7 +239,7 @@ veritatis
 <skipped>
 </skipped>
 </testcase>
-<testcase name="TEST :--&gt; 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" time="0">
+<testcase name="TEST :--&gt; 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" time="0.005">
 <skipped>
 </skipped>
 </testcase>
