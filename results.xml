@@ -1,27 +1,27 @@
-<testsuites id="" name="" tests="15" failures="3" skipped="0" errors="0" time="247.061433">
-<testsuite name="e2e_test.spec.ts" timestamp="1675332163224" hostname="" tests="15" failures="3" skipped="0" time="230.102" errors="0">
-<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="2.77">
+<testsuites id="" name="" tests="15" failures="0" skipped="3" errors="0" time="67.21601400000003">
+<testsuite name="e2e_test.spec.ts" timestamp="1675332910821" hostname="" tests="15" failures="0" skipped="3" time="63.624" errors="0">
+<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="3.012">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----001-Login-Here-Admin-is-logging-into-Admin-Dashboard-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="1.888">
+<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="2.018">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----002-Login-Here-Admin-is-skipping-WPUF-setup-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="1.425">
+<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="1.952">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----003-Login-Here-Admin-is-checking-Dashboard-page-reached-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" time="3.386">
+<testcase name="TEST :--&gt; 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" time="3.053">
 <system-out>
 <![CDATA[WPUF-Lite Status: Activated
 WPUF-Pro Status: Activated
@@ -30,292 +30,85 @@ WPUF-Pro Status: Activated
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="2">
+<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="1.394">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="4.384">
+<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="3.151">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="6.911">
+<testcase name="TEST :--&gt; 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="7.063">
 <system-out>
-<![CDATA[architecto
-architecto
+<![CDATA[veritatis
+veritatis
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" time="6.121">
+<testcase name="TEST :--&gt; 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" time="7.011">
 <system-out>
-<![CDATA[nostrum
-nostrum
+<![CDATA[ipsa
+ipsa
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="10.062">
+<testcase name="TEST :--&gt; 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="9.306">
 <system-out>
-<![CDATA[est
-est
+<![CDATA[corporis
+corporis
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" time="9.064">
+<testcase name="TEST :--&gt; 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" time="8.567">
 <system-out>
-<![CDATA[neque
-neque
+<![CDATA[ex
+ex
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="13.162">
+<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="12.079">
 <system-out>
-<![CDATA[architecto
-architecto
+<![CDATA[veritatis
+veritatis
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" time="5.333">
+<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" time="5.018">
 <system-out>
-<![CDATA[architecto
-architecto
+<![CDATA[veritatis
+veritatis
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="49.665">
-<failure message="e2e_test.spec.ts:276:5 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" type="FAILURE">
-<![CDATA[  [chromium] › e2e_test.spec.ts:276:5 › TEST :--> › 0013:[Reg-Forms] Here, Admin is creating Blank Form with > PostFields 
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-
-    Retry #1 ---------------------------------------------------------------------------------------
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-
-    Retry #2 ---------------------------------------------------------------------------------------
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
-<system-out>
-<![CDATA[cumque
-cumque
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/test-failed-1.png]]
-est
-est
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/test-failed-1.png]]
-consectetur
-consectetur
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/test-failed-1.png]]
-]]>
-</system-out>
+<testcase name="TEST :--&gt; 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="TEST :--&gt; 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="57.626">
-<failure message="e2e_test.spec.ts:298:5 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" type="FAILURE">
-<![CDATA[  [chromium] › e2e_test.spec.ts:298:5 › TEST :--> › 0014:[Reg-Forms] Here, Admin is creating Blank Form with > CustomFields 
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-
-    Retry #1 ---------------------------------------------------------------------------------------
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-
-    Retry #2 ---------------------------------------------------------------------------------------
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
-<system-out>
-<![CDATA[in
-in
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/test-failed-1.png]]
-officiis
-officiis
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/test-failed-1.png]]
-impedit
-impedit
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/test-failed-1.png]]
-]]>
-</system-out>
+<testcase name="TEST :--&gt; 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="0">
+<skipped>
+</skipped>
 </testcase>
-<testcase name="TEST :--&gt; 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" time="56.305">
-<failure message="e2e_test.spec.ts:322:5 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" type="FAILURE">
-<![CDATA[  [chromium] › e2e_test.spec.ts:322:5 › TEST :--> › 0015:[Reg-Forms] Here, Admin is creating Blank Form with > Others 
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-
-    Retry #1 ---------------------------------------------------------------------------------------
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-
-    Retry #2 ---------------------------------------------------------------------------------------
-
-    Expected to fail, but passed.
-
-    attachment #1: trace (application/zip) ---------------------------------------------------------
-    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip
-    Usage:
-
-        npx playwright show-trace test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip
-
-    ------------------------------------------------------------------------------------------------
-
-    attachment #2: screenshot (image/png) ----------------------------------------------------------
-    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/test-failed-1.png
-    ------------------------------------------------------------------------------------------------
-]]>
-</failure>
-<system-out>
-<![CDATA[sunt
-sunt
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/test-failed-1.png]]
-perferendis
-perferendis
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/test-failed-1.png]]
-recusandae
-recusandae
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip]]
-
-[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/test-failed-1.png]]
-]]>
-</system-out>
+<testcase name="TEST :--&gt; 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" time="0">
+<skipped>
+</skipped>
 </testcase>
 </testsuite>
 </testsuites>
