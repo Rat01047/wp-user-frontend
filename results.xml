@@ -1,0 +1,1651 @@
+<testsuites id="" name="" tests="15" failures="12" skipped="0" errors="0" time="977.7787860000001">
+<testsuite name="e2e_test.spec.ts" timestamp="1675329682679" hostname="" tests="15" failures="12" skipped="0" time="904.487" errors="0">
+<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="2.96">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----001-Login-Here-Admin-is-logging-into-Admin-Dashboard-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="0.736">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----002-Login-Here-Admin-is-skipping-WPUF-setup-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="0.804">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----003-Login-Here-Admin-is-checking-Dashboard-page-reached-chromium/trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" time="74.997">
+<failure message="e2e_test.spec.ts:73:5 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:73:5 › TEST :--> › 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:150
+
+      148 |             else {
+      149 |                 await this.page.isVisible(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+    > 150 |                 await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                                 ^
+      151 |             }
+      152 |         console.log("WPUF-Lite Status: Activated");
+      153 |     };
+
+        at BasicLoginPage.activate_WPUF_Lite (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:150:33)
+        at BasicLoginPage.pluginStatusCheck (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:117:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:75:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:150:33
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:150
+
+      148 |             else {
+      149 |                 await this.page.isVisible(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+    > 150 |                 await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                                 ^
+      151 |             }
+      152 |         console.log("WPUF-Lite Status: Activated");
+      153 |     };
+
+        at BasicLoginPage.activate_WPUF_Lite (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:150:33)
+        at BasicLoginPage.pluginStatusCheck (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:117:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:75:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:150:33
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:150
+
+      148 |             else {
+      149 |                 await this.page.isVisible(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+    > 150 |                 await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                                 ^
+      151 |             }
+      152 |         console.log("WPUF-Lite Status: Activated");
+      153 |     };
+
+        at BasicLoginPage.activate_WPUF_Lite (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:150:33)
+        at BasicLoginPage.pluginStatusCheck (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:117:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:75:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:150:33
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----004-Login-Here-Admin-is-check-321ef-n-Status-activating-Plugin-if-found-deactivated-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="74.998">
+<failure message="e2e_test.spec.ts:78:5 005:[Login] Here, Admin is visiting WPUF Page" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:78:5 › TEST :--> › 005:[Login] Here, Admin is visiting WPUF Page ===
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:80:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:80:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:80:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="74.999">
+<failure message="e2e_test.spec.ts:83:5 006:[Login] Here, Admin is changing WPUF Settings" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:83:5 › TEST :--> › 006:[Login] Here, Admin is changing WPUF Settings 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('xpath=//a[@href="admin.php?page=wpuf-settings"]')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:187
+
+      185 |         await this.page.goto('http://localhost:8889/wp-admin/admin.php?page=wpuf-post-forms');
+      186 |         //Change Settings
+    > 187 |         await this.page.click(Selectors_LoginPage.wpuf_SettingsPage.settingsTab);
+          |                         ^
+      188 |         await expect (await this.page.isVisible(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile1)).toBeTruthy();
+      189 |         await this.page.click(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile2);
+      190 |         await this.page.selectOption(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile_LoginPage, {label: '— Select —'});
+
+        at BasicLoginPage.change_WPUF_Settings (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:187:25)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:85:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:187:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('xpath=//a[@href="admin.php?page=wpuf-settings"]')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:187
+
+      185 |         await this.page.goto('http://localhost:8889/wp-admin/admin.php?page=wpuf-post-forms');
+      186 |         //Change Settings
+    > 187 |         await this.page.click(Selectors_LoginPage.wpuf_SettingsPage.settingsTab);
+          |                         ^
+      188 |         await expect (await this.page.isVisible(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile1)).toBeTruthy();
+      189 |         await this.page.click(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile2);
+      190 |         await this.page.selectOption(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile_LoginPage, {label: '— Select —'});
+
+        at BasicLoginPage.change_WPUF_Settings (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:187:25)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:85:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:187:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('xpath=//a[@href="admin.php?page=wpuf-settings"]')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:187
+
+      185 |         await this.page.goto('http://localhost:8889/wp-admin/admin.php?page=wpuf-post-forms');
+      186 |         //Change Settings
+    > 187 |         await this.page.click(Selectors_LoginPage.wpuf_SettingsPage.settingsTab);
+          |                         ^
+      188 |         await expect (await this.page.isVisible(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile1)).toBeTruthy();
+      189 |         await this.page.click(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile2);
+      190 |         await this.page.selectOption(Selectors_LoginPage.wpuf_SettingsPage.settingsTab_Profile_LoginPage, {label: '— Select —'});
+
+        at BasicLoginPage.change_WPUF_Settings (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:187:25)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:85:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:187:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="75">
+<failure message="e2e_test.spec.ts:113:5 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:113:5 › TEST :--> › 007:[Post-Forms] Here, Admin is creating Blank Form with > PostFields 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:117:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:117:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:117:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----007-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" time="74.999">
+<failure message="e2e_test.spec.ts:134:5 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:134:5 › TEST :--> › 008:[Post-Forms] Admin is creating Blank Form with > Taxonomies 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:138:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:138:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:138:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="75">
+<failure message="e2e_test.spec.ts:157:5 009:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:157:5 › TEST :--> › 009:[Post-Forms] Here, Admin is creating Blank Form with > CustomFields 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:161:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:161:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:161:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----009-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" time="74.998">
+<failure message="e2e_test.spec.ts:180:5 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:180:5 › TEST :--> › 0010:[Post-Forms] Here, Admin is creating Blank Form with > Others 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:184:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:184:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:184:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="74.999">
+<failure message="e2e_test.spec.ts:204:5 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:204:5 › TEST :--> › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:208:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:208:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:208:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" time="74.999">
+<failure message="e2e_test.spec.ts:236:5 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:236:5 › TEST :--> › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:240:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:240:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:240:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="75">
+<failure message="e2e_test.spec.ts:276:5 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:276:5 › TEST :--> › 0013:[Reg-Forms] Here, Admin is creating Blank Form with > PostFields 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:283:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:283:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:283:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0013-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="74.999">
+<failure message="e2e_test.spec.ts:298:5 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:298:5 › TEST :--> › 0014:[Reg-Forms] Here, Admin is creating Blank Form with > CustomFields 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:305:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:305:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:305:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0014-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+<testcase name="TEST :--&gt; 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" time="74.999">
+<failure message="e2e_test.spec.ts:322:5 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" type="FAILURE">
+<![CDATA[  [chromium] › e2e_test.spec.ts:322:5 › TEST :--> › 0015:[Reg-Forms] Here, Admin is creating Blank Form with > Others 
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:329:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #1 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:329:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+
+    Retry #2 ---------------------------------------------------------------------------------------
+
+    Test timeout of 25000ms exceeded.
+
+    page.click: Target closed
+    =========================== logs ===========================
+    waiting for locator('#toplevel_page_wp-user-frontend > a')
+    ============================================================
+
+       at ../pages/01_Basic/basicLogin.ts:123
+
+      121 |     async pluginVisit() {
+      122 |         await this.page.goto('http://localhost:8889/wp-admin/');
+    > 123 |         await this.page.click(Selectors_LoginPage.basicNavigation.clickWPUFSidebar);
+          |                         ^
+      124 |         await this.page.waitForLoadState('domcontentloaded');
+      125 |
+      126 |         //ASSERTION > Check if-VALID
+
+        at BasicLoginPage.pluginVisit (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:123:25)
+        at BasicLoginPage.basiclogin2 (/home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/pages/01_Basic/basicLogin.ts:62:9)
+        at /home/runner/work/wp-user-frontend2/wp-user-frontend2/tests/e2e/tests/e2e_test.spec.ts:329:9
+
+    Pending operations:
+      - page.click at pages/01_Basic/basicLogin.ts:123:25
+
+
+    attachment #1: trace (application/zip) ---------------------------------------------------------
+    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip
+    Usage:
+
+        npx playwright show-trace test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip
+
+    ------------------------------------------------------------------------------------------------
+
+    attachment #2: screenshot (image/png) ----------------------------------------------------------
+    test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/test-failed-1.png
+    ------------------------------------------------------------------------------------------------
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry1/test-failed-1.png]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/trace.zip]]
+
+[[ATTACHMENT|../test-results/e2e_test-TEST----0015-Reg-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium-retry2/test-failed-1.png]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
