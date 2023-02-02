@@ -1,20 +1,20 @@
-<testsuites id="" name="" tests="15" failures="12" skipped="0" errors="0" time="977.7787860000001">
-<testsuite name="e2e_test.spec.ts" timestamp="1675329682679" hostname="" tests="15" failures="12" skipped="0" time="904.487" errors="0">
-<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="2.96">
+<testsuites id="" name="" tests="15" failures="12" skipped="0" errors="0" time="1000.732863">
+<testsuite name="e2e_test.spec.ts" timestamp="1675329786476" hostname="" tests="15" failures="12" skipped="0" time="905.63" errors="0">
+<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="3.867">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----001-Login-Here-Admin-is-logging-into-Admin-Dashboard-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="0.736">
+<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="0.812">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----002-Login-Here-Admin-is-skipping-WPUF-setup-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="0.804">
+<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="0.965">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----003-Login-Here-Admin-is-checking-Dashboard-page-reached-chromium/trace.zip]]
@@ -157,7 +157,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="74.998">
+<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="74.996">
 <failure message="e2e_test.spec.ts:78:5 005:[Login] Here, Admin is visiting WPUF Page" type="FAILURE">
 <![CDATA[  [chromium] › e2e_test.spec.ts:78:5 › TEST :--> › 005:[Login] Here, Admin is visiting WPUF Page ===
 
@@ -290,7 +290,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="74.999">
+<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="75">
 <failure message="e2e_test.spec.ts:83:5 006:[Login] Here, Admin is changing WPUF Settings" type="FAILURE">
 <![CDATA[  [chromium] › e2e_test.spec.ts:83:5 › TEST :--> › 006:[Login] Here, Admin is changing WPUF Settings 
 
@@ -423,7 +423,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="75">
+<testcase name="TEST :--&gt; 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="75.001">
 <failure message="e2e_test.spec.ts:113:5 007:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" type="FAILURE">
 <![CDATA[  [chromium] › e2e_test.spec.ts:113:5 › TEST :--> › 007:[Post-Forms] Here, Admin is creating Blank Form with > PostFields 
 
@@ -967,7 +967,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="74.999">
+<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="75.001">
 <failure message="e2e_test.spec.ts:204:5 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" type="FAILURE">
 <![CDATA[  [chromium] › e2e_test.spec.ts:204:5 › TEST :--> › 0011:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields 
 
@@ -1103,7 +1103,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" time="74.999">
+<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" time="75">
 <failure message="e2e_test.spec.ts:236:5 0012:[Post-Forms] Here, Admin is creating a Preset Post Form" type="FAILURE">
 <![CDATA[  [chromium] › e2e_test.spec.ts:236:5 › TEST :--> › 0012:[Post-Forms] Here, Admin is creating a Preset Post Form 
 
@@ -1239,7 +1239,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="75">
+<testcase name="TEST :--&gt; 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="74.998">
 <failure message="e2e_test.spec.ts:276:5 0013:[Reg-Forms] Here, Admin is creating Blank Form with &gt; PostFields" type="FAILURE">
 <![CDATA[  [chromium] › e2e_test.spec.ts:276:5 › TEST :--> › 0013:[Reg-Forms] Here, Admin is creating Blank Form with > PostFields 
 
@@ -1375,7 +1375,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="74.999">
+<testcase name="TEST :--&gt; 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="74.998">
 <failure message="e2e_test.spec.ts:298:5 0014:[Reg-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" type="FAILURE">
 <![CDATA[  [chromium] › e2e_test.spec.ts:298:5 › TEST :--> › 0014:[Reg-Forms] Here, Admin is creating Blank Form with > CustomFields 
 
@@ -1511,7 +1511,7 @@
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" time="74.999">
+<testcase name="TEST :--&gt; 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" time="74.998">
 <failure message="e2e_test.spec.ts:322:5 0015:[Reg-Forms] Here, Admin is creating Blank Form with &gt; Others" type="FAILURE">
 <![CDATA[  [chromium] › e2e_test.spec.ts:322:5 › TEST :--> › 0015:[Reg-Forms] Here, Admin is creating Blank Form with > Others 
 
