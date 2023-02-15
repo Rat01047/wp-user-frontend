@@ -1,27 +1,27 @@
-<testsuites id="" name="" tests="16" failures="0" skipped="3" errors="0" time="70.992163">
-<testsuite name="e2e_test.spec.ts" timestamp="1676455232904" hostname="" tests="16" failures="0" skipped="3" time="67.805" errors="0">
-<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="2.6">
+<testsuites id="" name="" tests="16" failures="0" skipped="3" errors="0" time="67.06895399999999">
+<testsuite name="e2e_test.spec.ts" timestamp="1676455586994" hostname="" tests="16" failures="0" skipped="3" time="64.943" errors="0">
+<testcase name="TEST :--&gt; 001:[Login] Here, Admin is logging into Admin-Dashboard" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 001:[Login] Here, Admin is logging into Admin-Dashboard" time="2.65">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----001-Login-Here-Admin-is-logging-into-Admin-Dashboard-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="2.086">
+<testcase name="TEST :--&gt; 002:[Login] Here, Admin is skipping WPUF setup" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 002:[Login] Here, Admin is skipping WPUF setup" time="1.865">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----002-Login-Here-Admin-is-skipping-WPUF-setup-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="1.962">
+<testcase name="TEST :--&gt; 003:[Login] Here, Admin is checking Dashboard page reached" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 003:[Login] Here, Admin is checking Dashboard page reached" time="1.449">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----003-Login-Here-Admin-is-checking-Dashboard-page-reached-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" time="2.952">
+<testcase name="TEST :--&gt; 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 004:[Login] Here, Admin is checking Plugin Status + activating Plugin if found deactivated" time="3.273">
 <system-out>
 <![CDATA[WPUF-Lite Status: Activated
 WPUF-Pro Status: Activated
@@ -30,21 +30,21 @@ WPUF-Pro Status: Activated
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="1.501">
+<testcase name="TEST :--&gt; 005:[Login] Here, Admin is visiting WPUF Page" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 005:[Login] Here, Admin is visiting WPUF Page" time="1.431">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----005-Login-Here-Admin-is-visiting-WPUF-Page-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="3.465">
+<testcase name="TEST :--&gt; 006:[Login] Here, Admin is changing WPUF Settings" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 006:[Login] Here, Admin is changing WPUF Settings" time="3.511">
 <system-out>
 <![CDATA[
 [[ATTACHMENT|../test-results/e2e_test-TEST----006-Login-Here-Admin-is-changing-WPUF-Settings-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 007 Here, Admin is able to Log out succesfully" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007 Here, Admin is able to Log out succesfully" time="2.907">
+<testcase name="TEST :--&gt; 007 Here, Admin is able to Log out succesfully" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 007 Here, Admin is able to Log out succesfully" time="3.228">
 <system-out>
 <![CDATA[LogOut Done
 
@@ -52,55 +52,55 @@ WPUF-Pro Status: Activated
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 008:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="5.787">
+<testcase name="TEST :--&gt; 008:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Here, Admin is creating Blank Form with &gt; PostFields" time="7.067">
 <system-out>
-<![CDATA[inventore
-inventore
+<![CDATA[dolores
+dolores
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Here-Admin-is-creating-Blank-Form-with-PostFields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" time="6.017">
+<testcase name="TEST :--&gt; 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 008:[Post-Forms] Admin is creating Blank Form with &gt; Taxonomies" time="6.038">
 <system-out>
-<![CDATA[dignissimos
-dignissimos
+<![CDATA[eveniet
+eveniet
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----008-Post-Forms-Admin-is-creating-Blank-Form-with-Taxonomies-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="9.765">
+<testcase name="TEST :--&gt; 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0010:[Post-Forms] Here, Admin is creating Blank Form with &gt; CustomFields" time="9.199">
 <system-out>
-<![CDATA[excepturi
-excepturi
+<![CDATA[ut
+ut
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0010-Post-Forms-Here-Admin-is-creating-Blank-Form-with-CustomFields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" time="8.867">
+<testcase name="TEST :--&gt; 0011:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0011:[Post-Forms] Here, Admin is creating Blank Form with &gt; Others" time="8.414">
 <system-out>
-<![CDATA[suscipit
-suscipit
+<![CDATA[sint
+sint
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0011-Post-Forms-Here-Admin-is-creating-Blank-Form-with-Others-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="14.512">
+<testcase name="TEST :--&gt; 0012:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0012:[Post-Forms] Here, Admin is creating a Blank Post Form with all Fields" time="11.815">
 <system-out>
-<![CDATA[inventore
-inventore
+<![CDATA[dolores
+dolores
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0012-Post-Forms-Here-Admin-is-creating-a-Blank-Post-Form-with-all-Fields-chromium/trace.zip]]
 ]]>
 </system-out>
 </testcase>
-<testcase name="TEST :--&gt; 0013:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0013:[Post-Forms] Here, Admin is creating a Preset Post Form" time="5.384">
+<testcase name="TEST :--&gt; 0013:[Post-Forms] Here, Admin is creating a Preset Post Form" classname="[chromium] › e2e_test.spec.ts › TEST :--&gt; › 0013:[Post-Forms] Here, Admin is creating a Preset Post Form" time="5.003">
 <system-out>
-<![CDATA[inventore
-inventore
+<![CDATA[dolores
+dolores
 
 [[ATTACHMENT|../test-results/e2e_test-TEST----0013-Post-Forms-Here-Admin-is-creating-a-Preset-Post-Form-chromium/trace.zip]]
 ]]>
